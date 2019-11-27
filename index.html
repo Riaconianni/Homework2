@@ -1,80 +1,104 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>Rachel Iaconianni's Portfolio</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
 
-  <title>Rachel Iaconianni's Portfolio</title>
-
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-</head>
-
-<body>
-  <!-- Start Nav -->
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8edfa;">
-    <span class="navbar-brand mb-1 h1">Rachel Iaconianni</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- End Nav -->
-  <!-- About me container -->
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-8 col-sm-4">
-        <div class="page-header">
-          <h1>About Me</h1>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-4 col-sm-8">
-            <!--Image of me with thumbnail  -->
-            <img src="assets/images/me.jpg" alt="Rachel Iaconianni wearing Disney Ears" class="img-thumbnail">
+  <body>
+    <!-- Start Nav -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #f8edfa;"
+    >
+      <span class="navbar-brand mb-1 h1">Rachel Iaconianni</span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- About me container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 col-sm-4">
+          <div class="page-header">
+            <h1>About Me</h1>
           </div>
-          <div class="col-12 col-md-8 col-sm-4">
-            <p>I am currently attending a coding bootcamp at Rutgers University. Recently, I started a new position at
-              the FAA Tech Center as a Configuration Management Specialist. Before I started working for the FAA Tech
-              Center, I was a Personal Banker for a small bank called Univest. I was in the banking industry for 7
-              years. Also, I am currently a board member for Big Brothers Big Sisters of Atlantic and Cape May Counties.
-            </p>
-            <p>My hobbies include volunteering, playing with my cats, learning new things, watching different streaming
-              services, and playing video games when I have the time. My cats are named Pennywise Dreadful and Violet
-              Manhands. I call them Penny and Violet for short. They are both rescues, and they are the cutest little
-              fluffballs. Before I started my coding bootcamp, I was taking American Sign Language classes. Currently,
-              my favorite show is on Hulu, and it's called Castle Rock.</p>
+          <div class="row">
+            <div class="col-12 col-md-4 col-sm-8">
+              <!--Image of me with thumbnail  -->
+              <img
+                src="assets/images/me.jpg"
+                alt="Rachel Iaconianni wearing Disney Ears"
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="col-12 col-md-8 col-sm-4">
+              <p>
+                I am currently attending a coding bootcamp at Rutgers
+                University. Recently, I started a new position at the FAA Tech
+                Center as a Configuration Management Specialist. Before I
+                started working for the FAA Tech Center, I was a Personal Banker
+                for a small bank called Univest. I was in the banking industry
+                for 7 years. Also, I am currently a board member for Big
+                Brothers Big Sisters of Atlantic and Cape May Counties.
+              </p>
+              <p>
+                My hobbies include volunteering, playing with my cats, learning
+                new things, watching different streaming services, and playing
+                video games when I have the time. My cats are named Pennywise
+                Dreadful and Violet Manhands. I call them Penny and Violet for
+                short. They are both rescues, and they are the cutest little
+                fluffballs. Before I started my coding bootcamp, I was taking
+                American Sign Language classes. Currently, my favorite show is
+                on Hulu, and it's called Castle Rock.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Making a Sticky Footer -->
-  <nav class="navbar sticky-bottom navbar-light bg-light text-center">
+    <!-- Making a Sticky Footer -->
+    <nav
+      class="navbar fixed-bottom navbar-light bg-light justify-content-center"
+    >
       <h5>Copyright ©</h5>
   </nav>
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
-
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
