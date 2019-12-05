@@ -2,7 +2,7 @@
 
 index.html
 
-Contains picture of me as well as a little bio.
+Contains picture of me as well as a little bio. Added google fonts of Raleway and Sulphur Point.
 
 portfolio.html
 
